@@ -52,6 +52,9 @@
     <!-- Styles-->
     <link href="css/agency-bundle.min.css" rel="stylesheet">
     <style>
+        .deco {
+    display: none;
+}
 .logo-main.medium img {
     max-Width: 200px !important;
     margin-top: 10px;
@@ -63,6 +66,12 @@
     max-height: 32px;
     margin-top: 10px;
 }
+}
+.header-content .logo img{
+    width: 135px !important;
+}
+.slick-track {
+    transform: translate3d(100px, 0px, 0px) !important;
 }
     </style>
 </head>
@@ -1008,8 +1017,9 @@
                         </div>
                         <div class="header-hamburger header-component flex-grow-1"></div>
                         <div class="header-basic header-component flex-grow-1"></div>
-                        <nav class="user-menu"><a class="btn waves-effect primary show-sm-up" href="register.html">SCHEDULE A CALL</a> <span class="spacer vertical-divider show-md-up"></span>
-                            <div class="menu-setting">
+                        <nav class="user-menu"><a class="btn waves-effect primary show-sm-up" href="register.html">SCHEDULE A CALL</a>
+                             <!-- <span class="spacer vertical-divider show-md-up"></span> -->
+                            <!-- <div class="menu-setting">
                                 <div class="setting"><button class="btn btn-icon waves-effect btn-small dropdown-trigger ma-1" data-target="dropdown_config" data-align="left" type="button"><i class="icon material-icons" id="setting_icon">settings</i></button>
                                     <div class="dropdown-content setting"
                                         id="dropdown_config">
@@ -1059,7 +1069,7 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </nav>
                         </nav>
                         <div id="container_menu"></div>
@@ -1454,9 +1464,8 @@
                                     <div class="testi-card">
                                         <div class="card paper">
                                             <p>Adarsh finished the project correctly, in a timely manor. I would definitely recommend others and will certainly consider them for future projects.</p>
-                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i>
-                                                <i
-                                                    class="material-icons star-icon" title="5">star</i>
+                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i>
+                                               
                                             </div>
                                         </div>
                                         <div class="person">
@@ -1470,9 +1479,8 @@
                                     <div class="testi-card">
                                         <div class="card paper">
                                             <p>AdliveTech did a great job i recommend them highly.</p>
-                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i>
-                                                <i
-                                                    class="material-icons star-icon-disable" title="1">star</i>
+                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon" title="5">star</i>
+                                                
                                             </div>
                                         </div>
                                         <div class="person">
@@ -1486,9 +1494,8 @@
                                     <div class="testi-card">
                                         <div class="card paper">
                                             <p>AdliveTech Completed Work Promptly and was able to understand my requirements and deliver the website template that not only met exceed my expectations.</p>
-                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i>
-                                                <i
-                                                    class="material-icons star-icon-disable" title="1">star</i>
+                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon" title="5">star</i>
+                                                
                                             </div>
                                         </div>
                                         <div class="person">
@@ -1498,102 +1505,130 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="item">
+                                <div class="item">
                                     <div class="testi-card">
                                         <div class="card paper">
-                                            <p>Sed imperdiet enim ligula, vitae viverra justo porta vel.</p>
-                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon-disable" title="1">star</i>
-                                                <i
-                                                    class="material-icons star-icon-disable" title="2">star</i>
+                                            <p>Adlivetech is one of the best web publishing website.The features they provide along with their plans at such affordable prices is just an offer that cant be neglected.
+                                                        </p>
+                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon" title="5">star</i>
+                                                
                                             </div>
                                         </div>
                                         <div class="person">
-                                            <div class="avatar-img avatar"><img src="https://randomuser.me/api/portraits/women/90.jpg" alt="name"></div>
+                                            <div class="avatar-img avatar"><img src="https://lh3.googleusercontent.com/a-/AD_cMMT6_k_HCY909WrGgAQSWleQagWsdcsPfub7Zh9K4vWhKQ=w75-h75-p-rp-mo-br100" alt="name"></div>
                                             <div class="name">
-                                                <h6>Jovelin Doe</h6><span class="caption">Senior Graphic Designer</span></div>
+                                                <h6>The Limelyte</h6></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="testi-card">
                                         <div class="card paper">
-                                            <p>Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.</p>
+                                            <p>AdliveTech people are very lively people.They are very professional and I would simply recommend them. This is one of the best Web Design and  Development Company</p>
+                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="5">star</i>
+                                                <i
+                                                    class="material-icons star-icon" title="5">star</i>
+                                            </div>
+                                        </div>
+                                        <div class="person">
+                                            <div class="avatar-img avatar"><img src="https://lh3.googleusercontent.com/a-/AD_cMMRzZIkm5lUUoiolx6HTEDP9ANNMnjuQaF-VLYPpFk1XQg=w75-h75-p-rp-mo-br100" alt="name"></div>
+                                            <div class="name">
+                                                <h6>Aach lori</h6></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="testi-card">
+                                        <div class="card paper">
+                                            <p>AdliveTech Completed Work Promptly and was able to understand my requirements and deliver the website template that not only met exceed my expectations.</p>
                                             <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i>
                                                 <i
                                                     class="material-icons star-icon" title="5">star</i>
                                             </div>
                                         </div>
                                         <div class="person">
-                                            <div class="avatar-img avatar"><img src="https://randomuser.me/api/portraits/women/44.jpg" alt="name"></div>
+                                            <div class="avatar-img avatar"><img src="https://lh3.googleusercontent.com/a-/AD_cMMSVy6iA9OUtfKOl4hSir1-1UuR3OXPXSrCbxJqXnLiAisM=w75-h75-p-rp-mo-br100" alt="name"></div>
                                             <div class="name">
-                                                <h6>Jihan Doe</h6><span class="caption">CEO Software House</span></div>
+                                                <h6>Faisal Khan</h6></div>
+                                        </div>
+                                    </div>
+                                </div>
+                               <div class="item">
+                                    <div class="testi-card">
+                                        <div class="card paper">
+                                            <p>Very Supportive team, response within a day .Ranked my business within one month. I wish bright future for Adlivetech. Thanks </p>
+                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon" title="5">star</i>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="person">
+                                            <div class="avatar-img avatar"><img src="https://lh3.googleusercontent.com/a-/AD_cMMRgwYeegF3eXCEjOQkbleFjobEnjeFgPPjxUXekB7NL-g=w75-h75-p-rp-mo-br100" alt="name"></div>
+                                            <div class="name">
+                                                <h6>Aajtak Property</h6></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="testi-card">
                                         <div class="card paper">
-                                            <p>Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.</p>
+                                            <p>I have not hesitated to recommend AdliveTech to my friends and business associates. Thanks!</p>
                                             <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i>
                                                 <i
                                                     class="material-icons star-icon" title="5">star</i>
                                             </div>
                                         </div>
                                         <div class="person">
-                                            <div class="avatar-img avatar"><img src="https://randomuser.me/api/portraits/men/75.jpg" alt="name"></div>
+                                            <div class="avatar-img avatar"><img src="https://lh3.googleusercontent.com/a-/AD_cMMQAzRYw26IM9PWiozyKg0hOfaandIweQstLoxXEeD8Kvw=w75-h75-p-rp-mo-br100" alt="name"></div>
                                             <div class="name">
-                                                <h6>Jovelin Doe</h6><span class="caption">Senior Graphic Designer</span></div>
+                                                <h6>Angela Peri</h6></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
                                     <div class="testi-card">
                                         <div class="card paper">
-                                            <p>Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.</p>
-                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i>
-                                                <i
-                                                    class="material-icons star-icon-disable" title="1">star</i>
+                                            <p>Good job guys!</p>
+                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon" title="5">star</i>
+                                               
                                             </div>
                                         </div>
                                         <div class="person">
-                                            <div class="avatar-img avatar"><img src="https://randomuser.me/api/portraits/men/4.jpg" alt="name"></div>
+                                            <div class="avatar-img avatar"><img src="https://lh3.googleusercontent.com/a-/AD_cMMTGh7jheEP1I2v38u_oxrg1L-gi-8LlDOKq4bsQqffLJA=w75-h75-p-rp-mo-br100" alt="name"></div>
                                             <div class="name">
-                                                <h6>John Doe</h6><span class="caption">Senior Graphic Designer</span></div>
+                                                <h6>Sylwia Dobryn</h6></div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> 
                                 <div class="item">
                                     <div class="testi-card">
                                         <div class="card paper">
-                                            <p>Sed imperdiet enim ligula, vitae viverra justo porta vel.</p>
-                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i>
-                                                <i
-                                                    class="material-icons star-icon" title="5">star</i>
+                                            <p>Adlivetech is Best for web designing. It is one of the best web designing company. They try to provide excellent service.</p>
+                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon" title="5">star</i>
+                                               
                                             </div>
                                         </div>
                                         <div class="person">
-                                            <div class="avatar-img avatar"><img src="https://randomuser.me/api/portraits/men/3.jpg" alt="name"></div>
+                                            <div class="avatar-img avatar"><img src="https://user-images.trustpilot.com/5a6ff6710000ff000b09e887/73x73.png" alt="name"></div>
                                             <div class="name">
-                                                <h6>John Doe</h6><span class="caption">Chief Digital Officer</span></div>
+                                                <h6>Abdolahifard Abdolahifard</h6></div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> 
                                 <div class="item">
                                     <div class="testi-card">
                                         <div class="card paper">
-                                            <p>Cras convallis lacus orci, tristique tincidunt magna consequat in. In vel pulvinar est, at euismod libero.</p>
-                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i>
-                                                <i
-                                                    class="material-icons star-icon-disable" title="1">star</i>
+                                            <p>One of the best Web Design and Development company in Faridabad | Delhi | India. I really appreciate AdliveTech.</p>
+                                            <div class="rating"><i class="material-icons star-icon" title="1">star</i><i class="material-icons star-icon" title="2">star</i><i class="material-icons star-icon" title="3">star</i><i class="material-icons star-icon" title="4">star</i><i class="material-icons star-icon" title="5">star</i>
+                                               
                                             </div>
                                         </div>
                                         <div class="person">
-                                            <div class="avatar-img avatar"><img src="https://randomuser.me/api/portraits/women/8.jpg" alt="name"></div>
+                                            <div class="avatar-img avatar"><img src="https://user-images.trustpilot.com/5a71aa550000ff000b0b28ef/73x73.png" alt="name"></div>
                                             <div class="name">
-                                                <h6>Jean Doe</h6><span class="caption">Chief Digital Officer</span></div>
+                                                <h6>Shu Chuan Yi</h6></div>
                                         </div>
                                     </div>
-                                </div> -->
+                                </div> 
                                 <div class="item show-lg-up">
                                     <div class="item-props-last"></div>
                                 </div>
@@ -1970,7 +2005,7 @@
                         <div class="btn-floating waves-effect send" id="send_message"><span class="ion-android-send"></span></div>
                     </div>
                 </div>
-                <div class="btn-floating btn-large chat-button" id="toggle_chat"><span class="indicator online"></span><i class="ion-chatbox"></i></div>
+                <!-- <div class="btn-floating btn-large chat-button" id="toggle_chat"><span class="indicator online"></span><i class="ion-chatbox"></i></div> -->
             </div>
         </div>
         <div class="corner-component" id="corner-nav">
